@@ -1,0 +1,1176 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+
+}
+body{
+    position: relative;
+    background: linear-gradient(260.81deg, #162758 2.47%, #0A142A 97.49%);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
+a{
+    text-decoration: none;
+    
+}
+button{
+    cursor: pointer;
+}
+.Logo{
+    position: relative;
+    width: 170px;
+    height: 35px;
+    left: 40px;
+    top: 25px;
+}
+.BlurLogo{
+    position: absolute;
+    width: 355.64px;
+    height: 356px;
+    left: -60.04px;
+    top: -95px;
+    background: radial-gradient(34.94% 34.94% at 50% 50%, #E11D2E 0%, rgba(255, 81, 96, 0.58) 100%);
+    opacity: 0.6;
+    filter: blur(100px);
+    border-radius: 1000px;
+}
+.menu{
+    position: absolute;
+    height: 20px;
+    left: 300px;
+    top: 25px;
+    display: flex;
+}
+.MenuPart{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    display: inline-block;
+    align-items: center;
+    padding-right: 20px;
+    opacity: 0.8;
+}
+.Join{
+    position: absolute;
+    top: -5px;
+    width: 155px;
+    height: 35px;
+    left: 1024px;
+    border: none;
+    background: #AC1216;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+}
+.Shiba{
+    position: absolute;
+    height : 306px;
+    left: 890px;
+    top: 240px;
+    transform: rotate(10deg);
+}
+.BlurShiba1{
+    position: absolute;
+    width: 693.3px;
+    height: 694px;
+    left: 690px;
+    top: 50px;
+    background: radial-gradient(33.58% 33.57% at 50% 50%, rgba(225, 29, 46, 0.5) 0%, rgba(255, 81, 96, 0.155) 100%);
+    filter: blur(50px);
+    border-radius: 1000px;
+
+}
+.Path270{
+    position: absolute;
+    left: 790px;
+    top: 260px;
+    transform: rotate(10deg);
+    opacity: 0.5;
+}
+.Path280{
+    position: absolute;
+    left: 1200px;
+    top: 200px;
+    opacity: 0.4;
+    transform: rotate(10deg);
+
+}
+.Path290{
+    position: absolute;
+    left: 1240px;
+    top: 400px;
+    opacity: 0.4;
+    transform: rotate(-5deg);
+
+}
+.BlurShiba2{
+    position: absolute;
+    width: 122.88px;
+    height: 123px;
+    left: 1100px;
+    top: 470px;
+    
+    background: radial-gradient(34.94% 34.94% at 50% 50%, #E11D2E 0%, rgba(255, 81, 96, 0.58) 100%);
+    filter: blur(40px);
+    border-radius: 1000px;
+}
+h1{
+    position: absolute;
+    width: 848px;
+    height: 180px;
+    left: 92px;
+    top: 130px;
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 70px;
+    align-items: center;
+    color: white;
+}
+.red{
+
+    color: #E11D2E;
+}
+.descr{
+    position: absolute;
+    width: 848px;
+    height: 30px;
+    left: 92px;
+    top: 290px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #71768E;
+}
+.SecondDescr{
+    position: absolute;
+    width: 848px;
+    height: 114px;
+    left: 92px;
+    top: 340px;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #A0A3B5;
+}
+.downDescr{
+    position: absolute;
+    width: 235px;
+    height: 60px;
+    left: 93px;
+    top: 475px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+    background: #E11D2E;
+    border-radius: 10px;
+    border: none;
+}
+.moreAbout{
+    position: absolute;
+    width: 250px;
+    height: 60px;
+    left: 353px;
+    top: 475px;
+    border: none;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+    font-size: 13px;
+    line-height: 30px;
+}
+.frame{
+    position: absolute;
+    width: 510px;
+    height: 60px;
+    left: 93px;
+    top: 565px;
+    border: 1px solid rgba(255, 255, 255, 0.09);
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.blur{
+    position: absolute;
+    width: 322.58px;
+    height: 323px;
+    left: -70px;
+    top: 350px;
+    background: radial-gradient(34.94% 34.94% at 50% 50%, #E11D2E 0%, rgba(255, 81, 96, 0.58) 100%);
+    opacity: 0.4;
+    filter: blur(20px);
+    border-radius: 800px;
+}
+.contactAddres{
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    width: 170px;
+    height: 18px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.2);
+}
+.addres{
+    position: absolute;
+    width: 634px;
+    height: 30px;
+    left: 30px;
+    top: 25px;
+    font-size: 17px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.4);
+}
+.MemeFrame{
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    top: 681px;
+    display: flex;
+    background: #5A4039;
+}
+.Warning{
+    width: 222px;
+    height: 16px;
+    padding-left: 15px;
+    padding-top: 12px;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 16px;
+    display: inline-block;
+    text-transform: uppercase;
+    padding-right: 5px;
+    color: rgba(255, 245, 0, 0.6);
+}
+main{
+    top: 683px;
+    background-color: #101932;
+    height: 3000px;
+    position: relative;
+    
+}
+.logos{
+    position: absolute;
+    height: 50px;
+    top: 50px;
+    left: 274px;
+    display: flex;
+}
+.pinkSale{
+    display: inline-block;
+    width: 156.25px;
+    height: 50px;
+    left: 470px;
+    mix-blend-mode: normal;
+    border-radius: 50px;
+    opacity: 0.4;
+    padding-right: 10px
+}
+li{
+    list-style-type: none;
+}
+.circle{
+    position: absolute;
+    width: 950px;
+    height: 950px;
+    left: 290px;
+    
+    
+    background: #143D85;
+    opacity: 0.05;
+    border-radius: 1000px;
+}
+.secondCircle{
+    position: absolute;
+    width: 750px;
+    height: 750px;
+    left: 100px;
+    top: 100px;
+    opacity: 0.2;
+    
+    background: yellow;
+    border-radius: 1000px;
+}
+.thirdCircle{
+    position: absolute;
+    width: 550px;
+    height: 550px;
+    left: 100px;
+    top: 100px;
+    
+    background: red;
+    
+    border-radius: 1000px;
+}
+.Vector{
+    position: absolute;
+    left: 310px;
+    width: 920px;
+    height: 950px;
+}
+.earth{
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    left: 590px;
+    top: 275px;
+}
+.FoxOnEarh{
+    position: absolute;
+    left: 670px;
+    width: 193,5px;
+    top: 360px;
+    height: 180px;
+}
+.foxSay{
+    position: absolute;
+    width: 570px;
+    height: 126px;
+    left: 480px;
+    top: 225px;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 42px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+.findOutButton{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 17px 45px 15px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    position: absolute;
+    width: 215px;
+    height: 77px;
+    left: 660px;
+    top: 555px;
+    border: none;
+    background: #E11D2E;
+    border-radius: 15px;
+}
+.Group33{
+    position: absolute;
+    width: 108px;
+    height: 108px;
+    left: 346px;
+    top: 377px;
+}
+.Group34{
+    position: absolute;
+    width: 108px;
+    height: 108px;
+    left: 956px;
+    top: 727px;
+}
+.Group35{
+    position: absolute;
+    width: 108px;
+    height: 108px;
+    left: 1100px;
+    top: 170px;
+}
+.HItWork{
+    position: absolute;
+    height: 60px;
+    top: 881px;
+    left: 570px;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 60px;
+}
+.ForBOx{
+    position: absolute;
+    display: flex;
+    top: 1000px;
+    left: 170px;
+}
+.box{
+    display: inline-block;
+    margin-right: 65px;
+    width: 350px;
+    height: 410px;
+    top: 1000px;
+    background: #384D70;
+    border-radius: 20px;
+}
+.Group{
+    position: absolute;
+    height: 100px;
+    top: 30px;
+    left: 30px;
+}
+.BoxHeader{
+    position: absolute;
+    height: 42px;
+    left: 30px;
+    top: 160px;
+    
+    font-size: 21px;
+
+
+}
+.BoxDescr{
+    position: absolute;
+    width: 416px;
+    height: 48px;
+    left: 30px;
+    top: 200px;
+    font-size: 10px;
+    
+    opacity: 0.3;
+}
+.BoxText{
+    position: absolute;
+    width: 416px;
+    height: 210px;
+    left: 30px;
+    top: 250px;
+    
+    font-size: 15px;
+    
+    
+    color: rgba(255, 255, 255, 0.7);
+}
+.PlayToEarnBox{
+    position: relative;
+    height: 1052px;
+    top: 1600px;
+}
+.PlayToEarnDescr{
+    position: absolute;
+    width: 552px;
+    height: 42px;
+    left: 576px;
+    top: 80px;
+    
+    font-size: 20px;
+    
+    opacity: 0.5;
+}
+.GameBox{
+    top: 172px;
+    position: absolute;
+    width: 1333px;
+    height: 360px;
+    left: 92px;
+    background: #071022;
+    border-radius: 30px;
+}
+.city{
+    position: absolute;
+    width: 600px;
+    height: 288px;
+    left: 40px;
+    top: 36px;
+    
+    background: #662544;
+    opacity: 0.4;
+    border-radius: 30px;
+
+}
+.foxOnCity{
+    position: absolute;
+    top: 100px;
+    left: 90px;
+    width: 150px;
+    transform: rotate(-22deg);
+}
+.vectorOnCity{
+    position: absolute;
+    width: 280px;
+    top: 35px;
+    left: 360px;
+
+}
+.goblin{
+    position: absolute;
+    width: 180px;
+
+    left: 410px;
+    top: 80px;
+    transform: rotate(5deg);
+}
+.HeadGameBox{
+    position: absolute;
+    width: 403px;
+    height: 36px;
+    left: 680px;
+    top: 36px;
+    
+    font-weight: bold;
+    font-size: 25px;
+
+}
+.DescrGameBox{
+    position: absolute;
+    width: 611px;
+    height: 232px;
+    left: 680px;
+    top: 85px;
+    
+    font-size: 15px;
+    line-height: 24.5px;
+    
+    
+    color: rgba(255, 255, 255, 0.6);
+}
+.ForBox2{
+    display: flex;
+    position: absolute;
+    left: 92px;
+    top: 580px;
+}
+.Box2{
+    display: inline-block;
+    width: 646px;
+    height: 200px;
+    background: #FF9429;
+    border-radius: 30px;
+    margin-right: 41px;
+}
+.logoPTEBox{
+    position: absolute;
+    height: 90px;
+    left: 30px;
+    top: 55px;
+}
+.For2BoxHead{
+    position: absolute;
+    width: 403px;
+    height: 36px;
+    left: 140px;
+    top: 25px; 
+    font-weight: bold;
+    font-size: 25px;
+    
+}
+.For2BoxDescr{
+    position: absolute;
+    width: 470px;
+    height: 99px;
+    left: 140px;
+    top: 70px;
+    font-size: 20px;
+    line-height: 27px;
+    opacity: 0.8;
+}
+.InvestBox{
+    position: relative;
+    height: 500px;
+
+    top: 1450px;
+
+    background: #30298C;
+
+}
+.InvestVector{
+    position: absolute;
+    height: 500px;
+    opacity: 0.2;
+}
+.InvestHeader{
+    position: absolute;
+    width: 470px;
+    height: 60px;
+    top: 100px;
+    left: 80px;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 60px;
+}
+.BoxDescr2{
+    position: absolute;
+    width: 450px;
+    height: 48px;
+    left: 80px;
+    top: 230px;
+    font-size: 13px;
+
+    opacity: 0.3;
+}
+.LearnMore{
+    position: absolute;
+    width: 404px;
+    height: 80px;
+    left: 80px;
+    top: 300px;
+    border: none;
+    background: #E11D2E;
+    border-radius: 10px;
+    
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    
+    align-items: center;
+    text-align: center;
+}
+.InBoxInvest{
+    position: absolute;
+    width: 689px;
+    height: 369px;
+    left: 750px;
+    top: 100px;
+}
+
+.Headers2Box{
+    position: absolute;
+    height: 36px;
+    left: 840px;
+    top: 100px;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 36px;
+}
+.DescrInvestBox{
+    position: absolute;
+    width: 600px;
+    height: 110px;
+    left: 840px;
+    top: 146px;
+    
+    font-size: 20px;
+    line-height: 30px;
+    
+    
+    opacity: 0.8;
+}
+.BackForLogo{
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    top: 105px;
+    left: 745px;
+
+    background: #FFFFFF;
+    opacity: 0.1;
+    border-radius: 20px;
+}
+.logoBoxInvest{
+    position: absolute;
+    top: 130px;
+    left: 750px;
+    width: 70px;
+    height: 50px;
+}
+#secondLogoInvest{
+    top: 270px;
+}
+#SecondHeaderInvest{
+    top: 270px;
+}
+#SecondDescrInvest{
+    top: 316px;
+}
+
+#Star{
+    top: 275px;
+    height: 140px;
+    width: 140px;
+    left: 714px;
+}
+.RoadMapBox{
+    position: relative;
+    height: 1620px;
+    top: 1450px;
+}
+.road{
+    position: relative;
+    width: 0px;
+    height: 1120px;
+    left: 50%;
+    top: 285px;
+    border: 2px solid #384D70;
+    box-sizing: border-box;
+}
+.dotOnRoad{
+    position: absolute;
+    
+    left: 49.85%;
+    top: 285px;
+    
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    background: #FF0000;
+}
+#ROadMap{
+    top: 70px;
+    left: 41.5%;
+}
+.BoxesRoadmapContainer{
+    position: absolute;
+    width: 600px;
+    height: 173px;
+    top: 190px;
+    background: rgba(56, 77, 112, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+
+.leftBoxes{
+    left: 100px;
+
+}
+.rightBoxes{
+    top: 423px;
+    right: 100px;
+}
+.BackForNaumber{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 30px;
+    top: 35px;
+    
+    background: #384D70;
+    opacity: 0.2;
+    border-radius: 30px;
+}
+.Nmmbers{
+    position: absolute;
+    width: 32px;
+    height: 78px;
+    top: 11px;
+    left: 27px;
+    font-weight: bold;
+    font-size: 65px;
+    line-height: 78px;
+
+}
+.DateOnBox{
+    position: absolute;
+    width: 356px;
+    height: 36px;
+    left: 160px;
+    top: 30px;
+    opacity: 0.5;
+    font-size: 20px;
+    line-height: 36px;
+}
+.BoxContent{
+    position: absolute;
+    width: 360px;
+    height: 90px;
+    left: 160px;
+    top: 75px;
+    opacity: 0.5;
+    font-size: 15px;
+    line-height: 20px
+
+}
+.TeamBOx{
+    position: relative;
+
+    height: 1071px;
+
+    top: 1500px;
+    background: #162344;
+}
+#TeamHeader{
+    top: 70px;
+    left: 45%;
+}
+.slideshow-container {
+    position: absolute;
+    left: 10%;
+    right: 10%;
+    top: 200px;
+    height: 370px;
+
+}
+.BoxSliderDot{
+    position: absolute;
+    top: 590px;
+    left: 45%;
+}
+.SliderDot {
+    cursor: pointer;
+    width: 10px;
+    height: 10px;
+    margin-left: 26px;
+    display: inline-block;
+    background: #A2A7B4;
+}
+.active, .SliderDot:hover {
+    background: #FF0000;
+}
+.TeamPeople{
+    position: absolute;
+}
+.teamPerson{
+    display: inline-flex;
+    width: 270px;
+    height: 370px;
+    padding-right: 39.35px;
+
+}
+#lastPerson{
+    right: 0;
+    padding-right: 0px;
+}
+.PhotoPerson{
+    width: 270px;
+    height: 280px;
+    position: absolute;
+    border-radius: 30px;
+}
+.NamePerson{
+    position: absolute;
+    width: 270px;
+    height: 36px;
+    left: 75px;
+    top: 290px;
+    font-size: 20px;
+    line-height: 36px;
+}
+.position{
+    position: absolute;
+    width: 270px;
+    height: 27px;
+    left: 70px;
+    top: 330px;
+    
+    font-size: 15px;
+    line-height: 26px;
+    
+    opacity: 0.6;
+}
+#PartnerHeader{
+    top: 700px;
+    left: 31.3%;
+    
+}
+#PartnerLogos{
+    top: 810px;
+    left: 10%;
+    right: 10%;
+
+}
+#PartnerpinkSale{
+    padding-right: 25px;
+    width: 181px;
+    height: 60px;
+}
+#lastPerson2{
+    right: 10;
+    padding-right: 0px;
+    width: 181px;
+    height: 60px;
+}
+.TokenomicsBox{
+    position: relative;
+    height: 800px;
+    top: 1400px;
+    
+    background: #101D3F;
+}
+#Tokenomics{
+    top: 50px;
+    left: 39.5%;
+}
+.grafic{
+    left: 36.8%;
+    position: absolute;
+    height: 400px;
+    top: 200px;
+}
+.TokenomicsBoxes{
+    position: absolute;
+    width: 350px;
+    height: 130px;
+    left: 5%;
+    top: 200px;
+
+}
+.Box-background{
+    background: #000000;
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+    border-radius: 15px;
+}
+.RightTokenomicsBoxes{
+    right: 5%;
+    left: auto;
+}
+.SecondTokenomicsBoxes{
+    top: 370px;
+}
+.ThirdTokenomicsBoxes{
+    top: 540px;
+}
+.MarketingLine{
+    position: absolute;
+    width: 50px;
+    left: 25px;
+    top: 20px;
+    border: 2px solid #4E00FF;
+    background-color: #4E00FF;
+    border-radius: 5px;
+    
+}
+.HeadBoxesTokenomics{
+    position: absolute;
+    width: 364px;
+    height: 32px;
+    left: 25px;
+    top: 30px;
+    
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 32px;
+    color: white;
+}
+.DescrBoxesTokenomics{
+    position: absolute;
+    width: 300px;
+    height: 48px;
+    left: 25px;
+    top: 70px;
+    font-size: 14px;
+    line-height: 24px;
+
+    opacity: 0.3;
+
+}
+.RightMarketingLine{
+    left: 25px;
+    border: 2px solid #133D81;
+    background-color: #133D81;
+
+    width: 30px;
+}
+
+.SecondMarketingLine{
+
+    border: 2px solid #FF850B;
+    background-color: #FF850B;
+    width: 15px;
+}
+#SecondMarketingLine2{
+    left: 50px;
+    border: 2px solid #663090;
+    background-color: #663090;
+    width: 18px;
+}
+.SecondHeadBoxesTokenomics{
+    top: 400px;
+}
+.SecondDescrBoxesTokenomics{
+    top: 440px;
+}
+#secondcenterLine{
+    border: 2px solid #FF0000;
+    background-color: #FF0000;
+    width: 40px; 
+}
+.ThirdMarketingLine{
+    border: 2px solid #1DBEE1;
+    background-color: #1DBEE1;
+    width: 70px;
+}
+
+#LastLine{
+    width: 45px;
+    border: 2px solid #0096F2;
+    background-color: #0096F2;
+}
+.QuestionsBox{
+    background: #101932;
+    position: relative;
+    height: 600px;
+    top: 1400px;
+}
+#HeadQuestions{
+    top: 70px;
+    left: 25%;
+}
+.AskedBoxes{
+    position: absolute;
+    cursor: pointer;
+    height: 60px;
+    left: 20%;
+    right: 20%;
+    top: 200px;
+    background: #384D70;
+    border-radius: 15px;
+}
+.Question{
+    position: absolute;
+    height: 20px;
+    left: 35px;
+    top: 20px;
+    font-size: 15px;
+}
+.RedCircle{
+    position: absolute;
+    width: 34px;
+    height: 34px;
+    right: 15px;
+    top: 13px;
+    cursor: pointer;
+    background: #E11D2E;
+    opacity: 0.8;
+    border-radius: 100px;
+}
+.Arrow{
+    position: absolute;
+    width: 16px;
+    left: 8px;
+    top: 14px;
+}
+.AnswerArrow{
+    transform: rotate(180deg);
+    top: 12px;
+    left: 8.2px;
+
+}
+.AnswerBox{
+    position: absolute;
+    height: 120px;
+    left: 20%;
+    right: 20%;
+    top: 200px;
+    display: none;
+    background: #384D70;
+    border-radius: 15px;
+}
+.answerText{
+    right: 35px;
+    top: 50px;
+    font-size: 10px;
+
+}
+#firstBlock{
+    display: none;
+}
+#Second{
+    top: 280px;
+    
+}
+#Third{
+    top: 360px;
+}
+#Four{
+    top: 440px;
+}
+#firstBlock{
+    display: none;
+}
+#SecondBlock{
+    top: 280px;
+}
+#ThirdBlock{
+    top: 360px;
+
+}
+#FourBlock{
+    top: 440px;
+
+}
+.JoinBox{
+    position: relative;
+    height: 850px;
+    top: 1400px;
+    background: #162758;
+}
+#JoinHeader{
+    width: 700px;
+    top: 60px;
+    text-align: center;
+    left: 26.85%;
+}
+.JoinEarth{
+    position: absolute;
+    left: 20%;
+    right:20%;
+    top: 200px;
+    height: 600px;
+    opacity: 0.15;
+}
+.JoinEarth:hover{
+    opacity: 0.4;
+}
+.LastLogoIcons{
+    position: absolute;
+    left: 25%;
+    right: 25%;
+
+    top: 270px;
+
+}
+.JoinLogos{
+    height: 96.9px;
+    display: inline-block;
+    padding-right: 30px;
+    
+}
+#insta{
+    padding-right: 0px;
+}
+.FoxJoin{
+    position: absolute;
+    left: 43.7%;
+
+    top: 420px;
+}
+.AddressBox{
+    position: absolute;
+height: 98px;
+left: 30%;
+right: 30%;
+top: 650px;
+
+background: rgba(0, 0, 0, 0.3);
+border-radius: 50px;
+}
+#LastAddress{
+    width: 500px;
+    color: rgba(255, 255, 255, 0.4);
+    top: 20px;
+    left: 60px;
+}
+#codeaddress{
+    color: rgba(255, 255, 255, 0.8);
+    left: 60px;
+    top: 40px;
+}
+footer{
+    position: relative;
+
+height: 64px;
+
+top: 5575px;
+
+background: #0D1428;
+}
+.Copyright{
+    position: absolute;
+width: 250px;
+height: 24px;
+left: 655px;
+
+top: 20px;
+font-size: 18px;
+line-height: 24px;
+
+
+opacity: 0.4;
+}
